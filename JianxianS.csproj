@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FA84A79B-0C47-40EA-B100-EACC4332AA6F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JianxianS</RootNamespace>
+    <AssemblyName>JianxianS</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AgileDotNet.VMRuntime">
+      <HintPath>References\AgileDotNet.VMRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>References\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-OLD">
+      <HintPath>References\Assembly-CSharp-OLD.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript">
+      <HintPath>References\Assembly-UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>References\Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>References\Boo.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="dfScriptLite">
+      <HintPath>References\dfScriptLite.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyRoads3D">
+      <HintPath>References\EasyRoads3D.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Actor">
+      <HintPath>References\Facepunch.Actor.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Cursor">
+      <HintPath>References\Facepunch.Cursor.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Geometry">
+      <HintPath>References\Facepunch.Geometry.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.HitBox">
+      <HintPath>References\Facepunch.HitBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.ID">
+      <HintPath>References\Facepunch.ID.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.MeshBatch">
+      <HintPath>References\Facepunch.MeshBatch.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Movement">
+      <HintPath>References\Facepunch.Movement.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Prefetch">
+      <HintPath>References\Facepunch.Prefetch.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Utility">
+      <HintPath>References\Facepunch.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="Fougerite, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\Fougerite.dll</HintPath>
+    </Reference>
+    <Reference Include="Fougerite.Patcher">
+      <HintPath>References\Fougerite.Patcher.exe</HintPath>
+    </Reference>
+    <Reference Include="Google.ProtocolBuffers">
+      <HintPath>References\Google.ProtocolBuffers.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.ProtocolBuffers.Serialization">
+      <HintPath>References\Google.ProtocolBuffers.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N">
+      <HintPath>References\I18N.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.West">
+      <HintPath>References\I18N.West.dll</HintPath>
+    </Reference>
+    <Reference Include="IronPython">
+      <HintPath>References\IronPython.dll</HintPath>
+    </Reference>
+    <Reference Include="IronPython.Modules">
+      <HintPath>References\IronPython.Modules.dll</HintPath>
+    </Reference>
+    <Reference Include="IronPython.SQLite">
+      <HintPath>References\IronPython.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="Jint">
+      <HintPath>References\Jint.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJSON">
+      <HintPath>References\LitJSON.dll</HintPath>
+    </Reference>
+    <Reference Include="LZ4">
+      <HintPath>References\LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamic">
+      <HintPath>References\Microsoft.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting">
+      <HintPath>References\Microsoft.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting.Core">
+      <HintPath>References\Microsoft.Scripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>References\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Posix">
+      <HintPath>References\Mono.Posix.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>References\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="MoonSharp.Interpreter">
+      <HintPath>References\MoonSharp.Interpreter.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>References\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity">
+      <HintPath>References\MySql.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web">
+      <HintPath>References\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>References\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Schema">
+      <HintPath>References\Newtonsoft.Json.Schema.dll</HintPath>
+    </Reference>
+    <Reference Include="RustBuster2016Server, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\83933\Desktop\RustBuster2016ServerRelease\Modules\RustBuster2016Server\RustBuster2016Server.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="uLink-OLD">
+      <HintPath>References\uLink-OLD.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>References\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Cloud.Analytics">
+      <HintPath>References\UnityEngine.Cloud.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Cloud.Analytics.Util">
+      <HintPath>References\UnityEngine.Cloud.Analytics.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>References\UnityScript.Lang.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\AuthMe\AuthLogger.cs" />
+    <Compile Include="Core\AuthMe\AuthMeServer.cs" />
+    <Compile Include="Core\AuthMe\AuthMeTE.cs" />
+    <Compile Include="Core\AuthMe\Credential.cs" />
+    <Compile Include="Core\Command.cs" />
+    <Compile Include="Core\connectpopu.cs" />
+    <Compile Include="Core\Money.cs" />
+    <Compile Include="Core\PrivateImplementationDetails.cs" />
+    <Compile Include="Core\Server_Event.cs" />
+    <Compile Include="Core\StringHelper.cs" />
+    <Compile Include="Debug.cs" />
+    <Compile Include="Core\Helper.cs" />
+    <Compile Include="Core\AuthMe\PrivilegeStorage.cs" />
+    <Compile Include="Core\Ini.cs" />
+    <Compile Include="Core\Kit.cs" />
+    <Compile Include="Core\Rconcommand.cs" />
+    <Compile Include="Core\Stats.cs" />
+    <Compile Include="Core\Vip.cs" />
+    <Compile Include="Core\Who.cs" />
+    <Compile Include="JianxianS.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="References\AgileDotNet.VMRuntime.dll" />
+    <Analyzer Include="References\Assembly-CSharp-DEOBFUSCATEDVERSION.dll" />
+    <Analyzer Include="References\Assembly-CSharp-firstpass.dll" />
+    <Analyzer Include="References\Assembly-CSharp-OLD.dll" />
+    <Analyzer Include="References\Assembly-CSharp.dll" />
+    <Analyzer Include="References\Assembly-UnityScript-firstpass.dll" />
+    <Analyzer Include="References\Assembly-UnityScript.dll" />
+    <Analyzer Include="References\Boo.Lang.dll" />
+    <Analyzer Include="References\dfScriptLite.dll" />
+    <Analyzer Include="References\EasyRoads3D.dll" />
+    <Analyzer Include="References\Facepunch.Actor.dll" />
+    <Analyzer Include="References\Facepunch.Cursor.dll" />
+    <Analyzer Include="References\Facepunch.Geometry.dll" />
+    <Analyzer Include="References\Facepunch.HitBox.dll" />
+    <Analyzer Include="References\Facepunch.ID.dll" />
+    <Analyzer Include="References\Facepunch.MeshBatch.dll" />
+    <Analyzer Include="References\Facepunch.Movement.dll" />
+    <Analyzer Include="References\Facepunch.Prefetch.dll" />
+    <Analyzer Include="References\Facepunch.Utility.dll" />
+    <Analyzer Include="References\Fougerite.dll" />
+    <Analyzer Include="References\Google.ProtocolBuffers.dll" />
+    <Analyzer Include="References\Google.ProtocolBuffers.Serialization.dll" />
+    <Analyzer Include="References\I18N.dll" />
+    <Analyzer Include="References\I18N.West.dll" />
+    <Analyzer Include="References\IronPython.dll" />
+    <Analyzer Include="References\IronPython.Modules.dll" />
+    <Analyzer Include="References\IronPython.SQLite.dll" />
+    <Analyzer Include="References\Jint.dll" />
+    <Analyzer Include="References\LitJSON.dll" />
+    <Analyzer Include="References\LZ4.dll" />
+    <Analyzer Include="References\Microsoft.Dynamic.dll" />
+    <Analyzer Include="References\Microsoft.Scripting.Core.dll" />
+    <Analyzer Include="References\Microsoft.Scripting.dll" />
+    <Analyzer Include="References\Mono.Cecil.dll" />
+    <Analyzer Include="References\Mono.Posix.dll" />
+    <Analyzer Include="References\Mono.Security.dll" />
+    <Analyzer Include="References\MoonSharp.Interpreter.dll" />
+    <Analyzer Include="References\mscorlib.dll" />
+    <Analyzer Include="References\MySql.Data.CF.dll" />
+    <Analyzer Include="References\MySql.Data.dll" />
+    <Analyzer Include="References\MySql.Data.Entity.dll" />
+    <Analyzer Include="References\MySql.Web.dll" />
+    <Analyzer Include="References\Newtonsoft.Json.dll" />
+    <Analyzer Include="References\Newtonsoft.Json.Schema.dll" />
+    <Analyzer Include="References\RustBuster2016Server.dll" />
+    <Analyzer Include="References\System.Configuration.dll" />
+    <Analyzer Include="References\System.Core.dll" />
+    <Analyzer Include="References\System.Data.dll" />
+    <Analyzer Include="References\System.Data.SQLite.dll" />
+    <Analyzer Include="References\System.dll" />
+    <Analyzer Include="References\System.Management.dll" />
+    <Analyzer Include="References\System.Runtime.Serialization.dll" />
+    <Analyzer Include="References\System.Security.dll" />
+    <Analyzer Include="References\System.Transactions.dll" />
+    <Analyzer Include="References\System.Xml.dll" />
+    <Analyzer Include="References\uLink-C-DYN.dll" />
+    <Analyzer Include="References\uLink-OLD.dll" />
+    <Analyzer Include="References\uLink.dll" />
+    <Analyzer Include="References\UnityEngine.Cloud.Analytics.dll" />
+    <Analyzer Include="References\UnityEngine.Cloud.Analytics.Util.dll" />
+    <Analyzer Include="References\UnityEngine.dll" />
+    <Analyzer Include="References\UnityScript.Lang.dll" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

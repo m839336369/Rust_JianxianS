@@ -1,0 +1,8 @@
+[23/04/2018 21:56] Fougerite Patcher V1.7.9
+[23/04/2018 21:56] No command specified.
+[23/04/2018 21:56] Launch patcher with args: "-1" (fields update) or\and "-2" (methods update).
+[23/04/2018 21:56] Or enter "0" to patch with both flags
+[23/04/2018 21:56] Prepraching LatePost method...
+[23/04/2018 21:56] Prepatching UpdateDelegate
+[23/04/2018 21:56] Success! Patching other methods...
+[23/04/2018 21:56] The patch was applied successfully!
